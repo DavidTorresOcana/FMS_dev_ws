@@ -20,7 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 catkin_package(
-  INCLUDE_DIRS include
+#  INCLUDE_DIRS include
   LIBRARIES fms
   CATKIN_DEPENDS message_runtime roscpp rospy std_msgs serial
   DEPENDS system_lib
